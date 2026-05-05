@@ -1,0 +1,44 @@
+SIFT:
+  PATH: ../Datasets/SIFT
+  DIM: 128
+  DATASET_SIZE: 10000000
+  SHARD: false
+  DISTANCE_TYPE: "l2"
+
+Wiki:
+  PATH: ../Datasets/Wiki
+  DIM: 768
+  DATASET_SIZE: 10000000
+  SHARD: false
+  DISTANCE_TYPE: "l2"
+MS_MARCO:
+  PATH: ../Datasets/MS_MARCO
+  DIM: 384
+  DATASET_SIZE: 8841823
+  SHARD: false
+  DISTANCE_TYPE: "l2"
+
+BigANN100M:
+  PATH: ../Datasets/BigANN100M
+  DIM: 128
+  SHARD: false
+  DATASET_SIZE: 100000000
+  SHARD_SIZE: 50000000
+  DISTANCE_TYPE: "l2"
+
+GIST:
+  PATH: ../Datasets/GIST
+  DIM: 960
+  DATASET_SIZE: 10000000
+  SHARD: false
+  DISTANCE_TYPE: "l2"
+
+GloVe:
+  PATH: ../Datasets/GloVe
+  DIM: 100
+  DATASET_SIZE: 1200000
+  SHARD: false
+  DISTANCE_TYPE: "ip"
+
+IDX_CACHE:
+  PATH: ../ANNS_idx_cache

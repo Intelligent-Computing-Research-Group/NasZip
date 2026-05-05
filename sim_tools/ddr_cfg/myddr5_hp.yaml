@@ -1,0 +1,60 @@
+# data precision
+data_pr: 16 # bit
+
+# device level
+ro: 32768
+co: 128
+co_w: 128 # bit
+bg: 8
+ba: 4
+de_pu:
+- 0
+de_pu_inbuf: 0 # 0
+de_pu_bf: 0 # 0
+de_pu_bf_rl: 1 
+de_pu_bf_wl: 1 
+de_pu_w: # pu_parallelism, MM(oh,ow,v)
+- 1
+- 1
+- 16
+de_gb: 0 # Unit: bit, total size is 2KB
+de_gb_rl: 1
+de_gb_wl: 1
+
+# rank level: 4 device (ddr5)
+de: 4
+de_w: 8
+ra_pu: 4
+ra_pu_inbuf: 131072 # 16KB
+ra_pu_outbuf: 131072 # 0
+ra_pu_bf_rl: 1
+ra_pu_bf_wl: 1
+
+ra_gb: 0 # Unit: bit, total size is 16 KB TODO: consider whether RA output can also be stored in GB
+ra_gb_rl: 1
+ra_gb_wl: 1 # After a write, does it affect the latency of the next read/write?
+
+# channel level (ddr4)
+ra: 4
+
+# system level
+ch: 12 # FIXME: 20 DIMM
+ch_w: 64
+host_w: 
+host_t: 
+host_reduce_t: 
+
+# Timing config
+tCCDL: 6
+tCCDS: 4
+# TODO: check if the RCD is the same
+tRCDWR: 24
+tRCDRD: 24
+tRP: 24
+tWR: 24
+tRTPL: 12
+tWTRL: 12
+tRTRS: 2
+RL: 28
+WL: 16
+BL: 16

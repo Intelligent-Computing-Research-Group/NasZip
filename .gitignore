@@ -1,0 +1,11 @@
+*.pdf
+__pycache__/
+ANNS_idx_cache/
+Datasets/
+Figures/
+result/*
+!result/Data/
+!result/Data/**
+!result/sync_csv_results.py
+sim_tools/mapping_cfg/
+.DS_Store

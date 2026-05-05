@@ -1,0 +1,56 @@
+SIFT:
+  bits_type: 3
+  bits:
+    - 18
+    - 16
+    - 14
+  dims:
+    - 42
+    - 74
+    - 128
+Wiki:
+  bits_type: 3 
+  bits:
+    - 18
+    - 16
+    - 14
+  dims:
+    - 256
+    - 512
+    - 768
+MS_MARCO:
+  bits_type: 3 
+  bits:
+    - 18
+    - 16
+    - 14
+  dims:
+    - 128
+    - 256
+    - 384
+BigANN100M:
+  bits_type: 3
+  bits:
+    - 18
+    - 16
+    - 14
+  dims:
+    - 42
+    - 74
+    - 128
+GIST:
+  bits_type: 3
+  bits:
+    - 18
+    - 16
+    - 14
+  dims:
+    - 280
+    - 600
+    - 960 
+GloVe:
+  bits_type: 1
+  bits:
+    - 16
+  dims:
+    - 100
