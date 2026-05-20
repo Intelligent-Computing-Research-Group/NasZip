@@ -6,7 +6,7 @@
 **Official implementation of NasZip (ISCA 2026)**
 
 
-> **[NasZip: Software and Hardware Co-Design to Accelerate Approximate Nearest Neighbor Search with DIMM-Based Near-Data Processing]**  
+> **NasZip: Software and Hardware Co-Design to Accelerate Approximate Nearest Neighbor Search with DIMM-Based Near-Data Processing**  
 > Cheng Zou, Shuo Yang, Chen Nie, Yu Zou, Yu He, Chao Jiang, Limin Xiao, Weifeng Zhang, Zhezhi He <br>
 > *Proceedings of the 53rd Annual International Symposium on Computer Architecture (ISCA), 2026*
 
