@@ -1,12 +1,12 @@
 # NasZip: Software and Hardware Co-Design to Accelerate Approximate Nearest Neighbor Search with DIMM-Based Near-Data Processing
 
-[![ISCA](https://img.shields.io/badge/ISCA-2026-red.svg)](https://openaccess.thecvf.com/content/CVPR2025/papers/You_VISTREAM_Improving_Computation_Efficiency_of_Visual_Streaming_Perception_via_Law-of-Charge-Conservation_CVPR_2025_paper.pdf)
+[![ISCA](https://img.shields.io/badge/ISCA-2026-red.svg)](https://arxiv.org/abs/2605.21952)
 [![License](https://img.shields.io/badge/License-MuLan_PSL_2.0-blue.svg)](https://opensource.org/license/mulanpsl-2-0)
 
 **Official implementation of NasZip (ISCA 2026)**
 
 
-> **NasZip: Software and Hardware Co-Design to Accelerate Approximate Nearest Neighbor Search with DIMM-Based Near-Data Processing**  
+> **[NasZip: Software and Hardware Co-Design to Accelerate Approximate Nearest Neighbor Search with DIMM-Based Near-Data Processing](https://arxiv.org/abs/2605.21952)**  
 > Cheng Zou, Shuo Yang, Chen Nie, Yu Zou, Yu He, Chao Jiang, Limin Xiao, Weifeng Zhang, Zhezhi He <br>
 > *Proceedings of the 53rd Annual International Symposium on Computer Architecture (ISCA), 2026*
 
